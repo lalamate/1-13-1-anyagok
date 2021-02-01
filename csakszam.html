@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Csak + egész szám</title>
+    <meta charset="utf-8">
+    
+</head>
+<body>
+<h1>Csak + egész szám</h1>
+   <script>
+    var n=0;
+        var ok=false;
+       do
+            {
+                n=prompt('Kérek egy pozitív egész számot','0');
+                ok=(isFinite(n) && Math.floor(n)==n && n>0);
+            }
+         while(!ok);
+        document.write('A megadott szám= ',n);
+    </script>
+</body>
+</html>

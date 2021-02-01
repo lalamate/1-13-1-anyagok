@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>születési évszám</title>
+    <meta charset="utf-8">
+    <style>
+input{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;}
+    </style>
+    <script>
+function szamol()
+{
+    var evszam=document.getElementById('szulev').value;
+    if(isFinite(evszam) && Math.floor(evszam)==evszam && evszam>=1900 && evszam<=2021)
+    {
+        var eletkor=2021-Number(evszam);
+        document.getElementById('uzenet').innerHTML=" Megfelelő adat! Életkor: "+eletkor+" év";
+        document.getElementById('szulev').style.backgroundColor="lightgreen";
+    }
+    else
+    {
+        document.getElementById('uzenet').innerHTML=" Nem megfelelő adat!";
+        document.getElementById('szulev').style.backgroundColor="lightpink"; 
+    }
+}
+    </script>
+</head>
+<body>
+<h1>Kérem a születési évszámot</h1>
+Születési évszám: <input type="number" id="szulev" min="1900" max="2021" oninput="szamol()"><span id="uzenet"></span>   
+</body>
+</html>
+

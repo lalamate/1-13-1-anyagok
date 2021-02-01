@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Csak szám</title>
+    <meta charset="utf-8">
+    
+</head>
+<body>
+<h1>Csak + egész szám (2 db)</h1>
+    <script>
+    var i=0;
+        var szamok=new Array();
+        for(i=1;i<=2;i++)
+            {
+                 var ok=false;
+                var n=0;
+                var szoveg='Kérem az '+i+'. számot';
+                do
+                    {
+                        n=prompt(szoveg,'0');
+                        ok=(isFinite(n) && Math.floor(n)==n && n>0);
+                    }
+                while(!ok);
+                szamok[i]=Number(n);
+            }
+        var osszeg=0;
+       for(i=1;i<=2;i++)
+           {
+               osszeg+=szamok[i];
+              document.write(i,'. szám= ',szamok[i],'<br>'); 
+           }
+        document.write('összeg= ',osszeg);
+    
+    </script>
+   
+</body>
+</html>
+
+
