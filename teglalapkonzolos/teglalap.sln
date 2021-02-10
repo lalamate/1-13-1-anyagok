@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teglalap", "teglalap\teglalap.csproj", "{FFE38C3C-7A9F-4CD6-84EC-A113561A5308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE38C3C-7A9F-4CD6-84EC-A113561A5308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE38C3C-7A9F-4CD6-84EC-A113561A5308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE38C3C-7A9F-4CD6-84EC-A113561A5308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE38C3C-7A9F-4CD6-84EC-A113561A5308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA38276D-B607-4831-B539-C22BE15D32FD}
+	EndGlobalSection
+EndGlobal

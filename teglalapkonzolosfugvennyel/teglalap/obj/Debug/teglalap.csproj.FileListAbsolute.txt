@@ -1,0 +1,14 @@
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\bin\Debug\teglalap.exe.config
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\bin\Debug\teglalap.exe
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\bin\Debug\teglalap.pdb
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\obj\Debug\teglalap.csprojAssemblyReference.cache
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\obj\Debug\teglalap.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\obj\Debug\teglalap.exe
+C:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos\teglalap\teglalap\obj\Debug\teglalap.pdb
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\bin\Debug\teglalap.exe.config
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\bin\Debug\teglalap.exe
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\bin\Debug\teglalap.pdb
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\obj\Debug\teglalap.csprojAssemblyReference.cache
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\obj\Debug\teglalap.csproj.CoreCompileInputs.cache
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\obj\Debug\teglalap.exe
+c:\Users\HP\Downloads\____Szoftvertesztelés\teglalapkerterkonzolos másolata\teglalap\teglalap\obj\Debug\teglalap.pdb

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Téglalap kerülete, területe</title>
+    <meta charset="utf-8">
+    <script>
+    function szamol()
+        {
+            var aok=false;
+            var bok=false;
+            document.getElementById('kerulet').value="";
+                   document.getElementById('terulet').value="";
+            if(document.getElementById('aoldal').value!="")
+            {
+                var a=document.getElementById('aoldal').value;
+                
+                if(isFinite(a) && a>0)
+                { 
+                    document.getElementById('aoldal').style.backgroundColor="lightgreen";
+                    document.getElementById("aok").style.visibility="visible";
+                    document.getElementById("arossz").style.visibility="hidden";
+                    aok=true;
+                 
+                }
+                else
+                {
+                  document.getElementById('aoldal').style.backgroundColor="lightpink";
+                    document.getElementById("aok").style.visibility="hidden";
+                    document.getElementById("arossz").style.visibility="visible";
+                  aok=false;
+                 
+                }
+            }
+            if(document.getElementById('boldal').value!="")
+                {
+                    var b=document.getElementById('boldal').value;  
+                    if(isFinite(b) && b>0)
+                        {  
+                            document.getElementById('boldal').style.backgroundColor="lightgreen";
+                            document.getElementById("bok").style.visibility="visible";
+                            document.getElementById("brossz").style.visibility="hidden";
+                             bok=true;
+                         }       
+                    else
+                        {                    
+                            document.getElementById('boldal').style.backgroundColor="lightpink";                   
+                            document.getElementById("bok").style.visibility="hidden";
+                            document.getElementById("brossz").style.visibility="visible";
+                            bok=false;
+                 
+                        }
+                }
+                if(aok && bok)
+                {   
+                    a=Number(a);
+                    b=Number(b);
+                    ker=2*(a+b);
+                    ter=a*b;
+                   document.getElementById('kerulet').value=ker.toString();
+                   document.getElementById('terulet').value=ter.toString();
+                 
+                }
+            
+           
+        }
+    </script>
+    <style>
+        body{
+            background-color: blue;
+        }
+        #urlap{
+            width: 350px;
+            margin: 0 auto;
+            background-color: cornflowerblue;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px brown;
+            padding: 20px;
+        }
+        input{
+            width: 80px;
+            font-size: 18px;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px;;
+            box-shadow: 3px 3px 5px brown;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Téglalap kerülete, területe</h1>
+    <form id="urlap">
+    <label for="aoldal">A oldal</label> <input type="number" id="aoldal" title="A oldal" oninput="szamol()">  
+        <img src="ok.jpg" id="aok" alt=""><img src="rossz.jpg" id="arossz" alt="" >
+        <br>
+        <label for="boldal">B oldal</label> <input type="number" id="boldal" title="B oldal" oninput="szamol()"> 
+         <img src="ok.jpg" id="bok" alt="" ><img src="rossz.jpg" id="brossz" alt="" >
+        <br>
+        <label for="kerulet">Kerület</label> <input type="number" id="kerulet" title="Kerület" disabled>
+        <br>
+        <label for="terulet">Terület</label> <input type="number" id="terulet" title="Terület" disabled>
+    </form>
+  
+</body>
+</html>

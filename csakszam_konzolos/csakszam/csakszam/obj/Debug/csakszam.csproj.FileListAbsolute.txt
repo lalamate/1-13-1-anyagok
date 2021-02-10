@@ -1,0 +1,7 @@
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\bin\Debug\csakszam.exe.config
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\bin\Debug\csakszam.exe
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\bin\Debug\csakszam.pdb
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\obj\Debug\csakszam.csprojAssemblyReference.cache
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\obj\Debug\csakszam.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\obj\Debug\csakszam.exe
+C:\Users\HP\Downloads\____Szoftvertesztelés\csakszam_konzolos\csakszam\csakszam\obj\Debug\csakszam.pdb
